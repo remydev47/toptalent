@@ -1,0 +1,20 @@
+import React from 'react'
+
+const Header = () => {
+  return (
+    <>
+     <header className={styles.container}>
+        <div className={styles.menubtn}>Menu btn</div>
+        <div className={styles.menubtn}>Logo</div>
+        <div className={styles.themebtn}> Themebtn</div>
+     </header>
+    </>
+  )
+}
+
+export default Header;
+const styles ={
+    container:`sticky inset-x-0 top-0 z-20 flex items-center justify-between bg-white py-2 px-2 shadow-lg dark:bg-slate-900`,
+    menubtn:`flex grow-0 basis-1/3`,
+    themebtn:`flex grow-0 basis-1/3 justify-end`,
+}

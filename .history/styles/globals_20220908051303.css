@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    .dark {
+      color-scheme: dark;
+    }
+}
+
+.swiper-button-next {
+    background-color: theme("colors.white");
+    height: 40px;
+    width: 40px;
+    border-radius: 100px;
+    box-shadow: theme("boxShadow.lg");
+    transition: all;
+    transition-duration: 150ms;
+  }

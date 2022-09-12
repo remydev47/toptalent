@@ -6,9 +6,15 @@
     "start": "next start"
   },
   "dependencies": {
+    "@headlessui/react": "^1.7.0",
+    "@tailwindcss/forms": "^0.5.3",
+    "clsx": "^1.2.1",
     "next": "latest",
+    "next-themes": "^0.2.0",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "react-icons": "^4.4.0",
+    "swiper": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "17.0.35",
